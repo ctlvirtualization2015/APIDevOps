@@ -1,5 +1,5 @@
 #Set variables
-var temp_workspace=C:\Users\ab36194\.jenkins\workspace
+var temp_workspace=C:\Users\lalla\.jenkins\workspace
 
 #
 # Set variable values according to your configuration
@@ -27,5 +27,5 @@ open ${base}/${test-name}.lt
 loadtest -minutes ${minutes} -allReports ${project-home}/%d/${category}/${test-name} ${scenario}
 
 
- cmd /c copy /Y ${project-home}/%d/${category}/${test-name}  ${temp_workspace}\APIlt
+ 
 
