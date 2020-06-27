@@ -26,3 +26,6 @@ var minutes = 1
 open ${base}/${test-name}.lt
 loadtest -minutes ${minutes} -allReports ${project-home}/%d/${category}/${test-name} ${scenario}
 
+
+copy /Y ${project-home}/%d/${category}/${test-name} ${scenario}   ${temp_workspace}\APIlt
+
