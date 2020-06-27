@@ -14,7 +14,7 @@ var category = BackComp.myFirst.Consistency
 # scenario should be the name of the scenario in your load test file you want to run it with
 var scenario = "Steady Load"
 #base should be the folder location of the load test file you will be running
-#var base =  C:\Users\ab36194\.jenkins\workspace\APIlt\LoadTestDevOps\loadTest
+#var base =  C:\Users\lalla\.jenkins\workspace\LTPOC\LoadTestDevOps\loadTest
 
 var base =  ${temp_workspace}\LTPOC\LoadTestDevOps\loadTest
 
