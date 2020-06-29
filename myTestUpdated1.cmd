@@ -16,7 +16,7 @@ var scenario = "Steady Load"
 #base should be the folder location of the load test file you will be running
 #var base =  C:\Users\lalla\.jenkins\workspace\LTPOC\LoadTestDevOps\loadTest
 
-var base =  ${temp_workspace}\LTPOC\LoadTestDevOps\loadTest
+var base =  ${temp_workspace}\loadtest_github\LoadTestDevOps\loadTest
 
 #test-name should be the name of the load test file in the “base” folder above you want to run
 var test-name = myFirst
